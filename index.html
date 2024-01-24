@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Web Tech Tests</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="index.css" rel="stylesheet" />
+    <style>
+      form {
+        text-align: center;
+        margin: 50px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Add form-->
+    <form id="add_item">
+      <input
+        style="
+          padding-left: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          font-size: 20px;
+          width: 45%;
+        "
+        type="text"
+        id="item_data"
+        placeholder="Enter an item"
+      />
+      <input class="form__button" type="submit" value="Add item" />
+    </form>
+
+    <!--Add space for inserting data-->
+    <h1 style="text-align: center; margin-bottom: 20px;">List of Items</h3>
+    <ul id="item__list"></ul>
+    <script src="index.js"></script>
+  </body>
+</html>

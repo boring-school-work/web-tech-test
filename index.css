@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form__button {
+  padding: 13px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  border: none;
+  color: #fff;
+}
+
+#item__list {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
