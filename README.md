@@ -1,6 +1,6 @@
 # Web Tech Test
 
-- https://boring-school-stuff.github.io/web-tech-test
+- https://boring-school-work.github.io/web-tech-test
 
 ## Requirements
 
